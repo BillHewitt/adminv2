@@ -45,6 +45,7 @@
                          <% end %>
 
 
+
             <% if current_pages?(%w(search)) %>
              <li class="notification-list">
                 <a class="nav-link active" href="/admin/search" role="button" aria-haspopup="false" aria-expanded="false">
@@ -132,6 +133,12 @@
                 </div>
             </li>
 
+             <li class="notification-list d-none d-lg-block">
+                <a class="nav-link" href="/admin/wallet" role="button" aria-haspopup="false" aria-expanded="false">
+                    <i class="mdi mdi-wallet-outline noti-icon"></i>
+                </a>
+            </li>
+
             <li class="dropdown notification-list">
                 <a class="nav-link dropdown-toggle nav-user mr-0" data-toggle="dropdown" href="#" role="button" aria-haspopup="false" aria-expanded="false">
                     <img src="/template-assets/images/users/louise.jpg" alt="user-image" class="rounded-circle">
@@ -153,12 +160,6 @@
 
                     <!-- item-->
 
-
-                    <!-- item-->
-                    <a href="/admin/wallet" class="dropdown-item notify-item">
-                        <i class="mdi mdi-wallet-outline noti-icon wallet"></i>
-                        <span class="ml-1">My Wallet</span>
-                    </a>
     
                     <!-- item-->
                     <a href="/admin/profile1" class="dropdown-item notify-item">
